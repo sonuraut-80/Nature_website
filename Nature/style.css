@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url("main.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
+/* box1 */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-logo{
+    margin-top: 15px;
+}
+
+li{
+    display: inline-flex;
+   padding: 9px;
+}
+
+ul{
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+    padding: 2px 18px;
+}
+
+.menu{
+    font-size: 1.3rem;
+    font-style: inherit;
+    font-weight: 550;
+    color:#fff;
+}
+
+.menu1{
+    
+    color: #fff;
+    font-size: 15px;
+    padding: 12px 40px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+/* box2 */
+
+.content{
+    text-align: center;
+    margin-top: 6%;
+}
+
+.text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.text2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 6.5rem;
+    color: #fff;
+}
+
+.text3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 1rem;
+    color: #fff;
+    padding-right: 22px;
+}
+
+.text4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 1rem;
+    color: #fff;
+}
+
+button{
+    margin-top: 19px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 0.90rem;
+    color: rgb(53, 45, 45);
+}
+
+/* box3 */
+
+.body-content{
+   text-align: center;
+}
+#text5{
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 3rem;
+    color: gray;
+}
+
+#text6{
+    height: 4px;
+    background-color: yellow;
+    width: 190px;
+    margin-left: 140px;
+}
+
+/* box4 */
+
+
+
+.body-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+#photo{
+    transition: transform 0.3s ease;
+}
+
+#photo:hover{
+    transform: scale(1.1);
+}
+
+.photo1{
+    width: 350px;
+    margin-right: 10px;
+}
+#text7{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+#text8{
+    color: grey;
+}
+
+.photo2{
+    width: 350px;
+    margin-right: 10px;
+}
+
+#text9{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+#text10{
+    color: grey;
+}
+.photo3{
+    width: 350px;
+}
+
+#text11{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;   
+}
+
+#text12{
+    color: grey;
+}
+
+/* box5 */
+
+.quote{
+    background-color: #f1f2fa;
+    height: 300px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.body-content{
+    padding-top: 35px;
+    margin-left: 37%;
+    height: 200px;
+    width: 458px;
+    text-align: center;
+}
+
+.quote-text{
+    padding-top: 20px;
+    color: rgb(53, 45, 45);
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 450;
+}
+
+#profile{
+    padding-top: 25px;
+}
+
+/* box6 */
+
+.about{
+    display: flex;
+    margin-top: 80px;
+}
+
+.box1{
+    height: 280px;
+    width: 500px;
+    text-align: left;
+    margin-top: 120px;
+    margin-left: 190px;
+   
+}
+
+#content-text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 450;
+    font-size: 14px;
+    color: rgb(53, 45, 45);
+}
+
+#content-text2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 480;
+    font-size: 28px;
+    padding-top: 15px;
+}
+
+#content-text3{
+    color: rgb(53, 45, 45);
+    padding-top: 15px;
+    font-size: 17px;
+}
+
+.box2{
+   margin-left: 250px;
+   
+}
+
+#about3{
+    height: 490px;
+}
+
+/* box7 */
+
+.question{
+    background-image: url("main-2.png");
+    background-size: cover;
+    background-position: center;
+    height: 480px;
+    margin-top: 50px;
+}
+
+.question-content{
+    text-align: center;
+    padding-top: 100px;
+    height: 400px;
+    width: 555px;
+    margin-left: 32%;
+}
+
+#question-text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 550;
+    color: rgb(80, 75, 75);
+}
+
+#question-text2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 450;
+    color: rgb(80, 75, 75);
+    padding-top: 20px;
+}
+
+/* footer */
+
+.nav-footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-menu{
+    margin-right: 250px;
+    font-size: 17px;
+}
+
+.footer-logo{
+    margin-right: 25%;
+}
+
+.footer-content{
+    margin-right: 10%;
+}
